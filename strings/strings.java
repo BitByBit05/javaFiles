@@ -8,6 +8,7 @@ public class strings {
         System.out.println("Enter password :");
         password = scanner.nextLine();
         System.out.println("Username: "+username+"\tPassword: "+password);
+        System.out.println("Avatar: " + username.charAt(0));
         scanner.close();
     }
 }

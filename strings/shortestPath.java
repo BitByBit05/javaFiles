@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class shortestPath {
     
-    public void totalDisplacement() {
+    public static void totalDisplacement() {
         int x=0, y=0;
         double disp;
         Scanner scanner = new Scanner(System.in);
@@ -28,8 +28,6 @@ public class shortestPath {
         scanner.close();
     }
     public static void main(String[] args) {
-        shortestPath pathCalculator = new shortestPath();
-        pathCalculator.totalDisplacement();
-        
+        totalDisplacement();
     }
 }

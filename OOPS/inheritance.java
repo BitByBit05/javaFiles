@@ -1,5 +1,8 @@
-public class inheritence {
-    
+public class inheritance {
+    public static void main(String[] args) {
+        Mamals Lion = new Mamals();
+        Lion.eats();
+    }
 }
 
 //Base Class
@@ -16,11 +19,11 @@ class Animal {
     }
 }
 //Derived Class
-class Lion extends Animal {
+class Mamals extends Animal {
     void roars() {
-        System.out.println("roars");
+        System.out.println("Give birth to babies");
     }
     void carni() {
-        System.out.println("Carnivorous");
+        System.out.println("Breastfeed");
     }
 }
